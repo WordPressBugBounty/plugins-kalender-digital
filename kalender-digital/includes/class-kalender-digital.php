@@ -260,6 +260,15 @@ class Kalender_Digital {
 
     private function removeJavascript($string)
     {
-        return preg_replace('/[^a-zA-Z0-9_\-%:\/.]*/', '', $string);
+        $string = preg_replace('/[^a-zA-Z0-9_\-%:\/.]*/', '', $string);
+        $string = str_replace([
+            'script',
+            '%28',
+            '%22',
+            '%29',
+            '%3B',
+            ], '', $string);
+
+        return $string;
     }
 }

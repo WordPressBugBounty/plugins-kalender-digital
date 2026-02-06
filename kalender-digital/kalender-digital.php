@@ -16,7 +16,7 @@
  * Plugin Name:       Calendar.online
  * Plugin URI:        https://calendar.online/c/on-your-website
  * Description:       Plugin for Calendar.online
- * Version:           1.0.10
+ * Version:           1.0.13
  * Author:            Calendar.online
  * Author URI:        https://calendar.online
  * License:           GPL-2.0+
@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'KALENDER_DIGITAL_VERSION', '1.0.10' );
+define( 'KALENDER_DIGITAL_VERSION', '1.0.13' );
 
 /**
  * The code that runs during plugin activation.

@@ -4,8 +4,8 @@ Donate link: https://paypal.me/kalenderdigital
 Tags: calendar, kalender, planner, planer, event, termin, events, event calendar, planer, online calendar, calender, Calendar.online, Kalender.digital
 Requires at least: 4.6
 Requires PHP: 5.3
-Tested up to: 6.5
-Stable tag: 1.0.10
+Tested up to: 6.8
+Stable tag: 1.0.13
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,3 +67,17 @@ If you have problems with the plugin, please contact us at info@calendar.online
 
 = 1.0.10 =
 * Fix: Hyphen and underscore in access link not working
+
+= 1.0.11 =
+* Tested up to Wordpress Version: 6.8
+
+= 1.0.12 =
+* Updated Readme.txt
+
+= 1.0.13 =
+* Security improved
+
+== Frequently Asked Questions ==
+= Where do I report security bugs found in this plugin? =
+
+Please report security bugs found in the source code of the Calendar.online / Kalender.digital – Plugin plugin through the [Patchstack Vulnerability Disclosure  Program](https://patchstack.com/database/vdp/c881cf1c-31aa-4e3e-8fa1-9aa4f93b05d2). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
