@@ -240,10 +240,10 @@ class Kalender_Digital {
             'link' => $schemeHttps . $calendarDomain . '/12073b2a94a3ac83cbf7',
         ], $atts, $tag);
 
-        $height = trim($this->removeJavascript($atts['height']));
-        $width = trim($this->removeJavascript($atts['width']));
-        $border = trim($this->removeJavascript($atts['border']));
-        $src = trim($this->removeJavascript($atts['link']));
+        $height = trim(esc_attr($this->removeJavascript($atts['height'])));
+        $width = trim(esc_attr($this->removeJavascript($atts['width'])));
+        $border = trim(esc_attr($this->removeJavascript($atts['border'])));
+        $src = trim(esc_url($this->removeJavascript($atts['link'])));
 
         if (strpos($src, '/') === false) {
             $src = $schemeHttps . $calendarDomain . '/' . $src;

@@ -5,7 +5,7 @@ Tags: calendar, kalender, planner, planer, event, termin, events, event calendar
 Requires at least: 4.6
 Requires PHP: 5.3
 Tested up to: 6.8
-Stable tag: 1.0.13
+Stable tag: 1.0.14
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -75,6 +75,9 @@ If you have problems with the plugin, please contact us at info@calendar.online
 * Updated Readme.txt
 
 = 1.0.13 =
+* Security improved
+
+= 1.0.14 =
 * Security improved
 
 == Frequently Asked Questions ==
